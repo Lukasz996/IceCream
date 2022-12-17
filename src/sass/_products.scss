@@ -5,12 +5,12 @@
 
 .products__label {
   width: 100%;
-  // font-family: $secondary-font, sans-serif;
+  font-family: $secondary-font, sans-serif;
   font-size: 18px;
   line-height: 1.67;
   text-align: center;
   text-transform: uppercase;
-  // color: $secondary-accent-color;
+  color: $secondary-accent-color;
   margin-bottom: 15px;
 
   @media screen and (min-width: 768px) {
@@ -27,13 +27,13 @@
 
 .products__header {
   width: 100%;
-  // font-family: $secondary-font, sans-serif;
+  font-family: $secondary-font, sans-serif;
   font-size: 34px;
   line-height: 1.15;
   letter-spacing: 0.04em;
   text-align: center;
   text-transform: uppercase;
-  // color: $primary-accent-color;
+  color: $primary-accent-color;
   margin-bottom: 144px;
 
   @media screen and (min-width: 768px) {
@@ -97,27 +97,27 @@
   }
 }
 
-//   .products__item--backgroundPink {
-//     background-color: $hero-header-bg;
-//   }
+  .products__item--backgroundPink {
+    background-color: $hero-header-bg;
+  }
 
-//   .products__item--backgroundCoffee {
-//     background-color: $second-card-color;
-//   }
+  .products__item--backgroundCoffee {
+    background-color: $second-card-color;
+  }
 
-//   .products__item--backgroundGreen {
-//     background-color: $third-card-color;
-//   }
+  .products__item--backgroundGreen {
+    background-color: $third-card-color;
+  }
 
 .products__name {
   width: 100%;
-  // font-family: $secondary-font, sans-serif;
+  font-family: $secondary-font, sans-serif;
   font-size: 20px;
   line-height: 1.15;
   letter-spacing: 0.04em;
   text-align: center;
   text-transform: uppercase;
-  // color: $menu-text-color;
+  color: $menu-text-color;
 
   @media screen and (min-width: 1280px) {
     font-size: 30px;
@@ -412,7 +412,7 @@
 .products__name::after {
   content: '...';
   font-size: 30px;
-  //   color: $menu-text-color;
+  color: $menu-text-color;
   display: block;
   text-align: center;
   letter-spacing: 5px;
@@ -422,13 +422,13 @@
 
 .products__text {
   display: block;
-  // font-family: $main-font, sans-serif;
+  font-family: $main-font, sans-serif;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
-  // color: $menu-text-color;
+  color: $menu-text-color;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -449,7 +449,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  // background-color: $menu-text-color;
+  background-color: $menu-text-color;
   height: 40px;
   width: 40px;
   outline: none;
@@ -458,15 +458,15 @@
   transition: background-color 250ms linear;
 }
 
-//   .products__button:hover,
-//   .products__button:focus {
-//     background-color: $hover-button-menu-color;
-//   }
+  .products__button:hover,
+  .products__button:focus {
+    background-color: $hover-button-menu-color;
+  }
 
 .products__icon {
   width: 12px;
   height: 12px;
-  // fill: $primary-accent-color;
+  fill: $primary-accent-color;
 }
 
 .products__item:not(:last-child) {

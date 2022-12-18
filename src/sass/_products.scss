@@ -195,7 +195,7 @@
     background-size: contain;
     height: 335px;
     width: 335px;
-    top: -40%;
+    top: -39%;
     left: 0px;
     position: absolute;
     z-index: 999;
@@ -290,7 +290,7 @@
     background-size: contain;
     height: 335px;
     width: 335px;
-    top: -40%;
+    top: -39%;
     left: 0px;
     position: absolute;
     z-index: 999;
@@ -308,7 +308,7 @@
     background-size: contain;
     height: 335px;
     width: 335px;
-    top: -40%;
+    top: -29%;
     left: 0px;
     position: absolute;
     z-index: 999;
@@ -318,7 +318,7 @@
 .products__item--backgroundGreen::before {
   @media screen and (max-width: 767px) {
     content: '';
-    background-image: url('../images/milkshakes.png');
+    background-image: url('../images/milkshakex3.png');
     background-repeat: no-repeat;
     height: 252px;
     width: 250px;
@@ -384,7 +384,7 @@
     background-size: contain;
     height: 335px;
     width: 335px;
-    top: -40%;
+    top: -39%;
     left: 0px;
     position: absolute;
     z-index: 999;
@@ -402,7 +402,7 @@
     background-size: contain;
     height: 335px;
     width: 335px;
-    top: -40%;
+    top: -39%;
     left: 0px;
     position: absolute;
     z-index: 999;
@@ -460,13 +460,12 @@
 
 .products__button:hover,
 .products__button:focus {
-  background-color: $hover-button-menu-color;
+  box-shadow: 4px 4px 46px -4px rgba(66, 68, 90, 1);
 }
 
 .products__icon {
-  width: 12px;
-  height: 12px;
-  fill: $primary-accent-color;
+  width: 40px;
+  height: 40px;
 }
 
 .products__item:not(:last-child) {

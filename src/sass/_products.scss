@@ -97,17 +97,17 @@
   }
 }
 
-  .products__item--backgroundPink {
-    background-color: $hero-header-bg;
-  }
+.products__item--backgroundPink {
+  background-color: $hero-header-bg;
+}
 
-  .products__item--backgroundCoffee {
-    background-color: $second-card-color;
-  }
+.products__item--backgroundCoffee {
+  background-color: $second-card-color;
+}
 
-  .products__item--backgroundGreen {
-    background-color: $third-card-color;
-  }
+.products__item--backgroundGreen {
+  background-color: $third-card-color;
+}
 
 .products__name {
   width: 100%;
@@ -128,7 +128,7 @@
 .products__item--backgroundPink::before {
   @media screen and (max-width: 767px) {
     content: '';
-    //   background-image: url('/images/mobile/programs/home-pic1.webp');
+    background-image: url('../images/ice_cream.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 252px;
@@ -146,7 +146,7 @@
     only screen and (max-width: 767px) and (min-resolution: 192dpi),
     only screen and (max-width: 767px) and (min-resolution: 2dppx) {
     content: '';
-    //   background-image: url('/images/mobile/programs/home-pic1@2x.webp');
+    background-image: url('../images/ice_cream@2x.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 252px;
@@ -159,7 +159,7 @@
 
   @media screen and (min-width: 768px) {
     content: '';
-    //   background-image: url('/images/tablet/programs/home-pic1.webp');
+    background-image: url('../images/ice_cream.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 226px;
@@ -177,7 +177,7 @@
     only screen and (min-width: 768px) and (min-resolution: 192dpi),
     only screen and (min-width: 768px) and (min-resolution: 2dppx) {
     content: '';
-    //   background-image: url('/images/tablet/programs/home-pic1@2x.webp');
+    background-image: url('../images/ice_cream@2x.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 226px;
@@ -190,7 +190,7 @@
 
   @media screen and (min-width: 1280px) {
     content: '';
-    //   background-image: url('/images/desktop/programs/home-pic1.webp');
+    background-image: url('../images/ice_cream.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 335px;
@@ -208,7 +208,7 @@
     only screen and (min-width: 1280px) and (min-resolution: 192dpi),
     only screen and (min-width: 1280px) and (min-resolution: 2dppx) {
     content: '';
-    //   background-image: url('/images/desktop/programs/home-pic1@2x.webp');
+    background-image: url('../images/ice_cream@2x.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 335px;
@@ -223,7 +223,7 @@
 .products__item--backgroundCoffee::before {
   @media screen and (max-width: 767px) {
     content: '';
-    //   background-image: url('/images/mobile/programs/home-pic2.webp');
+    background-image: url('../images/ice_coffee.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 252px;
@@ -241,7 +241,7 @@
     only screen and (max-width: 767px) and (min-resolution: 192dpi),
     only screen and (max-width: 767px) and (min-resolution: 2dppx) {
     content: '';
-    //   background-image: url('/images/mobile/programs/home-pic2@2x.webp');
+    background-image: url('../images/ice_coffee@2x.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 252px;
@@ -254,7 +254,7 @@
 
   @media screen and (min-width: 768px) {
     content: '';
-    //   background-image: url('/images/tablet/programs/home-pic2.webp');
+    background-image: url('../images/ice_coffee@2x.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 226px;
@@ -272,7 +272,7 @@
     only screen and (min-width: 768px) and (min-resolution: 192dpi),
     only screen and (min-width: 768px) and (min-resolution: 2dppx) {
     content: '';
-    //   background-image: url('/images/tablet/programs/home-pic2@2x.webp');
+    background-image: url('../images/ice_coffee@2x.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 226px;
@@ -285,7 +285,7 @@
 
   @media screen and (min-width: 1280px) {
     content: '';
-    //   background-image: url('/images/desktop/programs/home-pic2.webp');
+    background-image: url('../images/ice_coffee.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 335px;
@@ -303,7 +303,7 @@
     only screen and (min-width: 1280px) and (min-resolution: 192dpi),
     only screen and (min-width: 1280px) and (min-resolution: 2dppx) {
     content: '';
-    //   background-image: url('/images/desktop/programs/home-pic2@2x.webp');
+    background-image: url('../images/ice_coffee@2x.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 335px;
@@ -318,7 +318,7 @@
 .products__item--backgroundGreen::before {
   @media screen and (max-width: 767px) {
     content: '';
-    //   background-image: url('/images/mobile/programs/home-pic3.webp');
+    background-image: url('../images/milkshakes.png');
     background-repeat: no-repeat;
     height: 252px;
     width: 250px;
@@ -335,7 +335,7 @@
     only screen and (max-width: 767px) and (min-resolution: 192dpi),
     only screen and (max-width: 767px) and (min-resolution: 2dppx) {
     content: '';
-    //   background-image: url('/images/mobile/programs/home-pic3@2x.webp');
+    background-image: url('../images/milkshakes@2x.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 252px;
@@ -348,7 +348,7 @@
 
   @media screen and (min-width: 768px) {
     content: '';
-    //   background-image: url('/images/tablet/programs/home-pic3.webp');
+    background-image: url('../images/milkshakes.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 226px;
@@ -366,7 +366,7 @@
     only screen and (min-width: 768px) and (min-resolution: 192dpi),
     only screen and (min-width: 768px) and (min-resolution: 2dppx) {
     content: '';
-    //   background-image: url('/images/tablet/programs/home-pic3@2x.webp');
+    background-image: url('../images/milkshakes@2x.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 226px;
@@ -379,7 +379,7 @@
 
   @media screen and (min-width: 1280px) {
     content: '';
-    //   background-image: url('/images/desktop/programs/home-pic3.webp');
+    background-image: url('../images/milkshakes.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 335px;
@@ -397,7 +397,7 @@
     only screen and (min-width: 1280px) and (min-resolution: 192dpi),
     only screen and (min-width: 1280px) and (min-resolution: 2dppx) {
     content: '';
-    //   background-image: url('/images/desktop/programs/home-pic3@2x.webp');
+    background-image: url('../images/milkshakes@2x.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 335px;
@@ -458,10 +458,10 @@
   transition: background-color 250ms linear;
 }
 
-  .products__button:hover,
-  .products__button:focus {
-    background-color: $hover-button-menu-color;
-  }
+.products__button:hover,
+.products__button:focus {
+  background-color: $hover-button-menu-color;
+}
 
 .products__icon {
   width: 12px;

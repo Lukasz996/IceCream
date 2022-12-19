@@ -1,90 +1,90 @@
 .advantages {
+  display: flex;
+  background-color: $secondary-bg-color;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    padding-right: 70px;
+    padding-left: 20px;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:last-child) {
+      margin-bottom: 38px;
+    }
+  }
+  &__item-title {
+    font-family: $secondary-font;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.15;
+    color: $primary-accent-color;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  &__item-content {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.7;
+  }
+}
+@media screen and (min-width: 768px) {
+  .advantages {
     display: flex;
     background-color: $secondary-bg-color;
-  
+
     &__list {
       display: flex;
-      flex-direction: column;
-      padding-right: 70px;
-      padding-left: 20px;
+      flex-direction: row;
+      padding-right: 76px;
+      padding-left: 36px;
     }
     &__item {
       display: flex;
       flex-direction: column;
-  
+
       &:not(:last-child) {
-          margin-bottom: 38px;
+        margin-right: 60px;
       }
     }
     &__item-title {
       font-family: $secondary-font;
-      font-size: 36px;
+      font-size: 48px;
       font-weight: 400;
       line-height: 1.15;
       color: $primary-accent-color;
-      margin-top: 16px;
-      margin-bottom: 16px;
+      margin-top: 36px;
+      margin-bottom: 13px;
     }
-    &__item-text {
+    &__item-content {
       font-family: $main-font;
       font-weight: 700;
-      font-size: 12px;
+      font-size: 14px;
       line-height: 1.7;
     }
   }
-  @media screen and (min-width: 768px) {
-    .advantages {
-      display: flex;
-      background-color: $secondary-bg-color;
-  
-      &__list {
-        display: flex;
-        flex-direction: row;
-        padding-right: 76px;
-        padding-left: 36px;
-      }
-      &__item {
-        display: flex;
-        flex-direction: column;
-  
-        &:not(:last-child) {
-          margin-right: 60px;
-        }
-      }
-      &__item-title {
-        font-family: $secondary-font;
-        font-size: 48px;
-        font-weight: 400;
-        line-height: 1.15;
-        color: $primary-accent-color;
-        margin-top: 36px;
-        margin-bottom: 13px;
-      }
-      &__item-text {
-        font-family: $main-font;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.7;
-      }
-    }
-  }
-  @media screen and (min-width: 1200px) {
-    .advantages {
-      display: flex;
-      background-color: $secondary-bg-color;
-    }
-    .advantages__list {
+}
+@media screen and (min-width: 1200px) {
+  .advantages {
+    display: flex;
+    background-color: $secondary-bg-color;
+
+    &__list {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
       padding-right: 115px;
       padding-left: 115px;
     }
-    .advantages__item {
+    &__item {
       display: flex;
       flex-direction: column;
     }
-    .advantages__item-title {
+    &__item-title {
       font-family: $secondary-font;
       font-size: 58px;
       font-weight: 400;
@@ -93,13 +93,14 @@
       margin-top: 40px;
       margin-bottom: 15px;
     }
-    .advantages__item-text {
+    &__item-content {
       font-family: $main-font;
       font-weight: 700;
       font-size: 16px;
       line-height: 1.7;
     }
   }
-  .is-hidden {
-    display: none;
-  }
+}
+.is-hidden {
+  display: none;
+}

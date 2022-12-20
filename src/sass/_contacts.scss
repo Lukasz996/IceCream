@@ -567,9 +567,9 @@
   }
 
   &--red {
-    // background-color: var(--accentColor);
+    background-color: $accentColor;
 
-    // color: var(--primaryTextColor);
+    color: $primaryTextColor;
 
     &:hover,
     &:focus {

@@ -19,6 +19,9 @@
 
   @media (min-width: 768px) {
     justify-content: center;
+    z-index: 999;
+    top: 40px;
+    right: -265px;
   }
 
   @media (min-width: 1200px) {

@@ -119,6 +119,31 @@
   display: flex;
   justify-content: center;
 }
+// .about__statistics-number {
+//   font-family: Titan One;
+//   font-size: 36px;
+//   font-weight: 400;
+//   line-height: 41px;
+//   letter-spacing: 0.04em;
+//   text-align: left;
+//   color: #D41443;
+// }
+// .about__statistics-label {
+//   width: 230px;
+//   height: 36px;
+//   margin-top: 0;
+//   font-family: DM Sans;
+//   font-size: 12px;
+//   font-weight: 700;
+//   line-height: 20px;
+//   letter-spacing: 0em;
+//   text-align: left;
+//   color: #000000;
+// }
+// .about__statistics-item {
+//   padding-left: 20px;
+//   padding-bottom: 16px;
+// }
 .about__statistics-number {
   font-family: Titan One;
   font-size: 36px;
@@ -218,19 +243,19 @@
     line-height: 25px;
     margin-bottom: 66px;
   }
-  .about__statistics {
-    padding-left: 0px;
-  }
-  .about__statistics-number {
-    font-size: 48px;
-    line-height: 55px;
-  }
-  .about__list-statistics {
-    display: flex;
-    gap: 36px;
-    margin: auto;
-    justify-items: center;
-  }
+  // .about__statistics {
+  //   padding-left: 0px;
+  // }
+  // .about__statistics-number {
+  //   font-size: 48px;
+  //   line-height: 55px;
+  // }
+  // .about__list-statistics {
+  //   display: flex;
+  //   gap: 36px;
+  //   margin: auto;
+  //   justify-items: center;
+  // }
   .about__list-item--background {
     background-image: none;
     width: 340px;
@@ -247,12 +272,12 @@
   .button__wrapper {
     justify-content: flex-start;
   }
-  .about__statistics-label {
-    width: 180px;
-    height: 67px;
-    font-size: 14px;
-    line-height: 24px;
-  }
+  // .about__statistics-label {
+  //   width: 180px;
+  //   height: 67px;
+  //   font-size: 14px;
+  //   line-height: 24px;
+  // }
 }
 // DESKTOP
 @media screen and (min-width: 1280px) {
@@ -289,6 +314,14 @@
     letter-spacing: 0.04em;
     margin-bottom: 66px;
   }
+  // .about__statistics {
+  //   height: 222px;
+  //   width: 330px;
+  // }
+  // .about__list-statistics {
+  //   gap: 30px;
+  //   margin-top: 39px;
+  // }
   .about__statistics {
     height: 222px;
     width: 330px;

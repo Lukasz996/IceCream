@@ -8,6 +8,8 @@
   &__list {
     display: flex;
     flex-direction: column;
+    background-color: $secondary-bg-color;
+    margin: 0;
     padding-right: 70px;
     padding-left: 20px;
   }

@@ -52,7 +52,7 @@
       min-width: 174px;
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1200px) {
       min-width: 180px;
     }
 
@@ -66,7 +66,7 @@
         min-width: 192px;
       }
 
-      @media screen and (min-width: 1280px) {
+      @media screen and (min-width: 1200px) {
         min-width: 198px;
       }
     }
@@ -470,7 +470,7 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .contacts {
     padding-top: 66px;
     padding-bottom: 85px;
@@ -553,8 +553,8 @@
   font-weight: 700;
   line-height: 1.31;
   letter-spacing: 0.06em;
-  // color: $accentColor;
-  // background-color: $primaryTextColor;
+  color: $primary-accent-color;
+  background-color: $primary-bg-color;
 
   border-radius: 22px;
   border-style: none;
@@ -567,9 +567,9 @@
   }
 
   &--red {
-    // background-color: $accentColor;
+    background-color: $primary-accent-color;
 
-    // color: $primaryTextColor;
+    color: $primary-bg-color;
 
     &:hover,
     &:focus {

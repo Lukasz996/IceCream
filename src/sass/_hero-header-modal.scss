@@ -1,12 +1,14 @@
 .menu-toggle {
-//   position: absolute;
-//   bottom: 400px;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  //   bottom: 400px;
   left: 52px;
   min-height: 40px;
   min-width: 40px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 
   margin: 0;
   padding: 0;
@@ -16,6 +18,9 @@
   border: none;
   border-radius: 50%;
   outline: none;
+}
+
+@media (min-width: 768px) {
 }
 
 @media (min-width: 1200px) {

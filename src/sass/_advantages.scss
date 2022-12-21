@@ -1,3 +1,6 @@
+.is-hidden__adventages {
+  display: none;
+}
 .advantages {
     display: flex;
     background-color: $secondary-bg-color;
@@ -100,7 +103,4 @@
         line-height: 1.7;
       }
     }
-  }
-  .is-hidden__adventages {
-    display: none;
   }

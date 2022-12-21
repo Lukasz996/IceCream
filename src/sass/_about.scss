@@ -89,7 +89,9 @@ img > .about__picture--mobile {
 
 .about__list-item--background {
   width: 100vw;
+
   background-image: url(/src/images/making/milk.png);
+
   background-repeat: no-repeat;
   background-size: 100vw;
   @media (min-device-pixel-ratio: 2),

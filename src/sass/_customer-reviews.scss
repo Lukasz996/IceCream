@@ -64,7 +64,6 @@
     }
 }
 
-
 .review--gradient {
     position: relative;
     justify-content: center;
@@ -103,6 +102,10 @@
     }
 }  
 }
+.swiper-pointer-events {
+    touch-action: pan-y;
+}
+
 
 .swiper-pointer-events {
     touch-action: pan-y;
@@ -128,16 +131,7 @@
        width: 32px;
        height: 4px;
        background-image: url(../images/sprite.svg#icon-ellipsis-reviews);
- }
-}
-
-
-.review__dot::before {
-    content:'';
-    position: absolute;
-    width: 32px;
-    height: 4px;
-    background-image: url(../images/sprite.svg#icon-ellipsis-reviews);
+   }
 }
 
 .review__address{

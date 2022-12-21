@@ -1,13 +1,11 @@
-.about {
-  background-color: #fff5f6;
+img > .about__picture--mobile {
+  width: 280px;
 }
 
-.about__title-wrapper {
-  height: 112px;
-  width: 200px;
-  margin: auto;
-  margin-top: 125px;
-  border-radius: nullpx;
+.about {
+  background-color: #fff5f6;
+  height: 1688px;
+  width: 100%;
 }
 
 .about__label {
@@ -20,6 +18,15 @@
   text-align: center;
 }
 
+.about__title-wrapper {
+  width: 62%;
+  margin: auto;
+  text-align: center;
+  padding-top: 125px;
+  padding-bottom: 26px;
+  border-radius: nullpx;
+}
+
 .about__title {
   color: #d41443;
   font-family: Titan One;
@@ -28,12 +35,24 @@
   line-height: 39px;
   letter-spacing: 0.04em;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 15px;
 }
 
-.about__picture-wrapper {
+.about__picture--mobile {
   height: 279px;
   width: 280px;
+  margin: auto;
   border-radius: 0px;
+}
+
+.about__picture--tablet {
+  display: none;
+}
+
+.about__picture--desktop {
+  display: none;
 }
 
 .about__paragraph-wrapper {
@@ -43,10 +62,15 @@
   font-weight: 500;
   line-height: 19px;
   letter-spacing: 0em;
-  text-align: left;
 }
 
 .about__list {
+  list-style-type: none;
+  list-style-position: inside;
+  padding: 0;
+}
+
+.about__list-statistics {
   list-style-type: none;
   list-style-position: inside;
   padding: 0;
@@ -65,15 +89,23 @@
 
 .about__list-item--background {
   width: 100vw;
-  // background-image: url(/images/background.png);
+
+  background-image: url(/src/images/making/milk.png);
+
   background-repeat: no-repeat;
   background-size: 100vw;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(/src/images/making/milk@2x.png);
+  }
 }
 
 .about__paragraph {
   width: 220px;
   color: #000000;
   margin: auto;
+  text-align: left;
 }
 
 .about__paragraph--background {
@@ -125,6 +157,200 @@
 }
 
 .about__statistics-item {
-  padding-left: 21px;
+  padding-left: 20px;
   padding-bottom: 16px;
+}
+
+.about--flex {
+  display: block;
+}
+
+// BRAKING POINT
+@media screen and (min-width: 480px) {
+  .about__title-wrapper {
+    width: 66%;
+  }
+
+  .about__statistics {
+    padding-left: 50px;
+  }
+}
+
+// TABLET
+@media screen and (min-width: 768px) {
+  .about {
+    height: 1280px;
+  }
+
+  .about__label {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .about__title {
+    font-size: 48px;
+    line-height: 55px;
+  }
+
+  .about--flex {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .about__picture--mobile {
+    display: none;
+  }
+
+  .about__picture--tablet {
+    display: block;
+    height: 339px;
+    width: 340px;
+    margin: 0;
+  }
+
+  .about__picture--desktop {
+    display: none;
+  }
+
+  .about__paragraph {
+    width: 340px;
+    margin: 0;
+  }
+
+  .about__paragraph--background {
+    width: 340px;
+    margin: 0;
+    padding-bottom: 62px;
+    margin-top: 0px;
+  }
+
+  .about__button {
+    margin: 0;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .about__paragraph-wrapper {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 66px;
+  }
+
+  .about__statistics {
+    padding-left: 0px;
+  }
+
+  .about__statistics-number {
+    font-size: 48px;
+    line-height: 55px;
+  }
+
+  .about__list-statistics {
+    display: flex;
+    gap: 36px;
+    margin: auto;
+    justify-items: center;
+  }
+
+  .about__list-item--background {
+    background-image: none;
+    width: 340px;
+    padding-top: 49px;
+  }
+
+  .about__list {
+    padding-left: 17px;
+    width: 340px;
+  }
+
+  img > .about__picture--mobile {
+    width: 320px;
+  }
+
+  .about__title-wrapper {
+    padding-top: 130px;
+    padding-bottom: 50px;
+  }
+
+  .button__wrapper {
+    justify-content: flex-start;
+  }
+
+  .about__statistics-label {
+    width: 180px;
+    height: 67px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+// DESKTOP
+@media screen and (min-width: 1280px) {
+  .about {
+    height: 1382px;
+  }
+
+  .about--flex {
+    background-image: url(/src/images/making/milk-desk.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(/src/images/making/milk-desk@2x.png);
+    }
+  }
+
+  .about__paragraph {
+    width: 463px;
+  }
+
+  .about__list {
+    padding-left: 74px;
+  }
+
+  .about__list-item--background {
+    padding-top: 35px;
+  }
+
+  .about__paragraph--background {
+    width: 463px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .about__paragraph-wrapper {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    margin-bottom: 66px;
+  }
+
+  .about__statistics {
+    height: 222px;
+    width: 330px;
+  }
+
+  .about__list-statistics {
+    gap: 30px;
+    margin-top: 39px;
+  }
+
+  .about__picture--mobile {
+    display: none;
+  }
+
+  .about__picture--tablet {
+    display: none;
+  }
+
+  .about__picture--desktop {
+    display: block;
+    height: 516px;
+    width: 516px;
+  }
 }

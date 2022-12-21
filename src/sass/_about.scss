@@ -1,7 +1,3 @@
-img > .about__picture--mobile {
-  width: 280px;
-}
-
 .about {
   background-color: #fff5f6;
   height: 1688px;
@@ -45,6 +41,15 @@ img > .about__picture--mobile {
   width: 280px;
   margin: auto;
   border-radius: 0px;
+  background-image: url('/src/images/making/cow-mob.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('/src/images/making/cow-mob@2x.png');
+  }
 }
 
 .about__picture--tablet {
@@ -89,13 +94,13 @@ img > .about__picture--mobile {
 
 .about__list-item--background {
   width: 100vw;
-  background-image: url(/src/images/making/milk.png);
+  background-image: url('/src/images/making/milk.png');
   background-repeat: no-repeat;
   background-size: 100vw;
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url(/src/images/making/milk@2x.png);
+    background-image: url('/src/images/making/milk@2x.png');
   }
 }
 
@@ -206,6 +211,15 @@ img > .about__picture--mobile {
     height: 339px;
     width: 340px;
     margin: 0;
+    background-image: url('/src/images/making/cow-tablet.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url('/src/images/making/cow-tablet@2x.png');
+    }
   }
 
   .about__picture--desktop {
@@ -265,10 +279,6 @@ img > .about__picture--mobile {
     width: 340px;
   }
 
-  img > .about__picture--mobile {
-    width: 320px;
-  }
-
   .about__title-wrapper {
     padding-top: 130px;
     padding-bottom: 50px;
@@ -293,13 +303,13 @@ img > .about__picture--mobile {
   }
 
   .about--flex {
-    background-image: url(/src/images/making/milk-desk.png);
+    background-image: url('/src/images/making/milk-desk.png');
     background-repeat: no-repeat;
     background-size: 100%;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(/src/images/making/milk-desk@2x.png);
+      background-image: url('/src/images/making/milk-desk@2x.png');
     }
   }
 
@@ -350,5 +360,14 @@ img > .about__picture--mobile {
     display: block;
     height: 516px;
     width: 516px;
+    background-image: url('/src/images/making/cow-desk.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url('/src/images/making/cow-desk@2x.png');
+    }
   }
 }

@@ -1,3 +1,39 @@
+/*----Ustawienia contenera----*/
+.container {
+  padding: 0;
+  margin: 0 auto;
+
+  @media screen and (min-width: 320px) {
+    width: 320px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding: 0 34px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+/*----Ustawienia do ukrycia nagłówka sekcji----*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*----Podstawowe style dla sekcji contacts----*/
+
 .contacts {
   padding-top: 52px;
   padding-bottom: 58px;
@@ -18,15 +54,9 @@
 
   &__card {
     padding: 40px 20px;
-    background-color: var($primary-text-color);
+    background-color: $primary-text-color;
     box-shadow: 0px 8px 20px rgba(212, 20, 67, 0.1);
     border-radius: 24px;
-
-    // transition: box-shadow 250ms linear;
-    // &:hover,
-    // &:focus {
-    //   box-shadow: 0px 8px 35px rgba(212, 20, 67, 0.4);
-    // }
   }
 
   &__card:not(:last-child) {
@@ -52,7 +82,7 @@
       min-width: 174px;
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1200px) {
       min-width: 180px;
     }
 
@@ -66,7 +96,7 @@
         min-width: 192px;
       }
 
-      @media screen and (min-width: 1280px) {
+      @media screen and (min-width: 1200px) {
         min-width: 198px;
       }
     }
@@ -110,7 +140,7 @@
     line-height: 1.86;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: var($menu-text-color);
+    color: $menu-text-color;
     border-radius: 6px;
     &--first {
       width: 80px;
@@ -134,7 +164,7 @@
     font-size: 12px;
     line-height: 1.86;
     letter-spacing: 0.04em;
-    color: var($primary-text-color);
+    color: $primary-text-color;
   }
 
   &__description {
@@ -142,7 +172,7 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 1.5;
-    color: var($secondary-text-color);
+    color: $secondary-text-color;
   }
 
   &__workday:nth-child(2) {
@@ -153,14 +183,16 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 1.5;
-    color: var($secondary-text-color);
+    color: $secondary-text-color;
+    text-decoration: none;
   }
 
   &__mail {
     font-weight: 500;
     font-size: 12px;
     line-height: 1.5;
-    color: var($secondary-text-color);
+    color: $secondary-text-color;
+    text-decoration: none;
   }
 }
 
@@ -170,7 +202,7 @@
     font-size: 12px;
     line-height: 1.86;
     letter-spacing: 0.04em;
-    color: var($primary-text-color);
+    color: $primary-text-color;
   }
 
   &__time {
@@ -178,7 +210,7 @@
     font-size: 12px;
     line-height: 1.86;
     letter-spacing: 0.04em;
-    color: var($secondary-accent-color);
+    color: $secondary-accent-color;
   }
 }
 
@@ -225,7 +257,7 @@
     &__close-icon {
       width: 20px;
       height: 20px;
-      fill: var($primary-accent-color);
+      fill: $primary-accent-color;
     }
   }
 }
@@ -274,7 +306,7 @@
     &__close-icon {
       width: 20px;
       height: 20px;
-      fill: var($primary-accent-color);
+      fill: $primary-accent-color;
     }
   }
 
@@ -286,7 +318,7 @@
   & .form {
     &__list {
       padding-left: 30px;
-      color: var($secondary-text-color);
+      color: $secondary-text-color;
     }
 
     &__text {
@@ -295,7 +327,7 @@
       line-height: 1.5;
       text-align: center;
       letter-spacing: 0.03em;
-      color: var($secondary-accent-color);
+      color: $secondary-accent-color;
 
       &--title {
         margin-bottom: 10px;
@@ -303,14 +335,14 @@
         line-height: 1.5;
         text-align: center;
         letter-spacing: 0.03em;
-        color: var($primary-accent-color);
+        color: $primary-accent-color;
       }
       &--subtitle {
         margin-bottom: 10px;
         font-size: 12px;
         line-height: 1.5;
         letter-spacing: 0.03em;
-        color: var($primary-text-color);
+        color: $primary-text-color;
       }
     }
 
@@ -319,7 +351,7 @@
       font-size: 12px;
       line-height: 1.17;
       letter-spacing: 0.01em;
-      color: var($primary-accent-color);
+      color: $primary-accent-color;
 
       &:nth-child(-n + 7) {
         margin-bottom: 10px;
@@ -344,7 +376,7 @@
 
       &:focus {
         outline: none;
-        border-color: var($primary-accent-color);
+        border-color: $primary-accent-color;
       }
     }
 
@@ -362,7 +394,7 @@
 
       &:focus {
         outline: none;
-        border-color: var($primary-accent-color);
+        border-color: $primary-accent-color;
       }
 
       &::placeholder {
@@ -470,7 +502,7 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .contacts {
     padding-top: 66px;
     padding-bottom: 85px;
@@ -553,8 +585,8 @@
   font-weight: 700;
   line-height: 1.31;
   letter-spacing: 0.06em;
-  color: var(--accentColor);
-  background-color: var(--primaryTextColor);
+  color: $primary-accent-color;
+  background-color: $primary-bg-color;
 
   border-radius: 22px;
   border-style: none;
@@ -567,9 +599,9 @@
   }
 
   &--red {
-    background-color: var(--accentColor);
+    background-color: $primary-accent-color;
 
-    color: var(--primaryTextColor);
+    color: $primary-bg-color;
 
     &:hover,
     &:focus {

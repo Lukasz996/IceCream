@@ -1,36 +1,45 @@
-.gallery {
+.gallery__element {
   width: 100%;
+  background-image: url(../images/reviews/mobile-collage.png);
   height: 122px;
-  background-image: url(../images/reviews/mobile-collage.jpg);
+
   background-size: 100%;
   background-repeat: no-repeat;
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url(../images/reviews/mobile-collage@2x.jpg);
+    background-image: url(../images/reviews/mobile-collage@2x.png);
   }
 }
 
 @media screen and (min-width: 321px) {
-  .gallery {
-    background-image: url(../images/reviews/tablet-collage.jpg);
+  .gallery__element {
+    background-image: url(../images/reviews/tablet-collage.png);
     height: 264px;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../images/reviews/tablet-collage@2x.jpg);
+      background-image: url(../images/reviews/tablet-collage@2x.png);
     }
   }
 }
 
 @media screen and (min-width: 773px) {
   .gallery {
-    background-image: url(../images/reviews/desktop-collage.jpg);
-    height: 420px;
+    background: linear-gradient(#fff4f6 36.5%, #ffffff 38%);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .gallery__element {
+    background-image: url(../images/reviews/desktop-collage.png);
+    height: 430px;
+    width: 1200px;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../images/reviews/desktop-collage@2x.jpg);
+      background-image: url(../images/reviews/desktop-collage@2x.png);
     }
   }
 }

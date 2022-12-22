@@ -1,14 +1,14 @@
 .section-review{
     padding: 0 20px;
-    margin-block: 80px;
+    margin-block: 70px;
     @media screen and (min-width:768px) {
         padding: 0 74px;
-        margin-block: 120px;
+        margin-block: 80px;
 
     }
     @media screen and (min-width: 1200px) {
         padding:0 175px;
-        margin-block: 128px;
+        
 
     }
 }
@@ -63,23 +63,25 @@
     }
 }
 
-.review--gradient::before {
-    content:'';
+.container-review::before {
+content:'';
     width: 54px;
     height: 40px;
     position: absolute;
     background-image: url(../images/reviews/quotes.svg);
+    overflow: hidden;
+    left: 60px;
+    top: 30px;
     
-    left: 11px;
-    top: -15px;
-
-       @media screen and (min-width: 768px) {
-       left: 9px;
+     @media screen and (min-width: 768px) {
+       left: 70px;
+       top: 32px;
     } 
       @media screen and (min-width: 1200px) {
-       left: -13px;
+       left: 43px;
     }
-}  
+}
+
 .review--gradient {
     position: relative;
     justify-content: center;
@@ -99,24 +101,6 @@
 @media screen and (min-width: 1200px) {
    margin-bottom: 32px;
   }
-
-  &::before {
-    content:'';
-    width: 54px;
-    height: 40px;
-    position: absolute;
-    background-image: url(../images/reviews/quotes.svg);
-    
-    left: 11px;
-    top: -15px;
-
-       @media screen and (min-width: 768px) {
-       left: 9px;
-    } 
-      @media screen and (min-width: 1200px) {
-       left: -13px;
-    }
-}  
 }
 
 .swiper-pointer-events {
@@ -182,7 +166,6 @@
     
     &--svg{
         display: flex;
-        // background-image: url(../images/sprite.svg#icon-home);
     }
     
     &--dot{

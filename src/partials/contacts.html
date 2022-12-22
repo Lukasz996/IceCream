@@ -30,6 +30,12 @@
             <a class="card__mail link" href="mailto:noreply@envato.com"
               >noreply@envato.com</a
             >
+            <a class="card__tel link" href="tel:+610383766284"
+              >+61(0) 383 766 284</a
+            >
+            <a class="card__mail link" href="mailto:noreply@envato.com"
+              >noreply@envato.com</a
+            >
           </div>
         </div>
       </li>
@@ -55,6 +61,12 @@
             </div>
           </div>
           <div class="card__item">
+            <a class="card__tel link" href="tel:+610383766284"
+              >+61(0) 383 766 284</a
+            >
+            <a class="card__mail link" href="mailto:noreply@envato.com"
+              >noreply@envato.com</a
+            >
             <a class="card__tel link" href="tel:+610383766284"
               >+61(0) 383 766 284</a
             >
@@ -92,6 +104,12 @@
             <a class="card__mail link" href="mailto:noreply@envato.com"
               >noreply@envato.com</a
             >
+            <a class="card__tel link" href="tel:+610383766284"
+              >+61(0) 383 766 284</a
+            >
+            <a class="card__mail link" href="mailto:noreply@envato.com"
+              >noreply@envato.com</a
+            >
           </div>
         </div>
       </li>
@@ -111,7 +129,13 @@
           type="button"
           data-location-modal-close
         >
+        <button
+          class="modalbox__close-button"
+          type="button"
+          data-location-modal-close
+        >
           <svg class="modalbox__close-icon">
+            <use href="/src/images/modal-icon.svg#icon-cross"></use>
             <use href="/src/images/modal-icon.svg#icon-cross"></use>
           </svg>
         </button>
@@ -133,7 +157,13 @@
           type="button"
           data-franchise-btn-close
         >
+        <button
+          class="modalbox__close-button"
+          type="button"
+          data-franchise-btn-close
+        >
           <svg class="modalbox__close-icon">
+            <use href="/src/images/modal-icon.svg#icon-cross"></use>
             <use href="/src/images/modal-icon.svg#icon-cross"></use>
           </svg>
         </button>
@@ -177,10 +207,22 @@
                 placeholder="name@mail.com"
                 required
               />
+              <input
+                type="email"
+                name="user-email"
+                class="form__input"
+                placeholder="name@mail.com"
+                required
+              />
             </span>
           </label>
           <label class="form__field">
             Komentarz
+            <textarea
+              name="comment"
+              class="form__comment"
+              placeholder="Wprowadź tekst"
+            ></textarea>
             <textarea
               name="comment"
               class="form__comment"
@@ -193,3 +235,4 @@
     </div>
   </div>
 </section>
+

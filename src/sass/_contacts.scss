@@ -1,3 +1,37 @@
+/*----Ustawienia kontenera----*/
+.container {
+  padding: 0;
+  margin: 0 auto;
+
+  @media screen and (min-width: 320px) {
+    width: 320px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding: 0 34px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+/*----Ustawienia tytułu który ma być nie widoczny----*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .contacts {
   padding-top: 52px;
   padding-bottom: 58px;
@@ -21,12 +55,6 @@
     background-color: var($primary-text-color);
     box-shadow: 0px 8px 20px rgba(212, 20, 67, 0.1);
     border-radius: 24px;
-
-    // transition: box-shadow 250ms linear;
-    // &:hover,
-    // &:focus {
-    //   box-shadow: 0px 8px 35px rgba(212, 20, 67, 0.4);
-    // }
   }
 
   &__card:not(:last-child) {
@@ -52,7 +80,7 @@
       min-width: 174px;
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1200px) {
       min-width: 180px;
     }
 
@@ -66,7 +94,7 @@
         min-width: 192px;
       }
 
-      @media screen and (min-width: 1280px) {
+      @media screen and (min-width: 1200px) {
         min-width: 198px;
       }
     }
@@ -470,7 +498,7 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .contacts {
     padding-top: 66px;
     padding-bottom: 85px;

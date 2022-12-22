@@ -1,3 +1,11 @@
+// .container{
+// display: flex;
+// align-items: center;
+// }
+// *{
+//   padding: 0;
+// }
+
 .section-products {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -16,12 +24,14 @@
   @media screen and (min-width: 768px) {
     font-size: 26px;
     line-height: 1.15;
+    margin: 0;
   }
 
   @media screen and (min-width: 1280px) {
     font-size: 30px;
     line-height: 1.13;
     letter-spacing: 0.04em;
+    margin: 0;
   }
 }
 

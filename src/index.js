@@ -1,4 +1,5 @@
-<script src="/js/modal.js"></script>;
-<script src="/js/location.js"></script>;
-<script src="/js/frenchise-popup.js"></script>;
-<script src="/js/swiper.js"></script>
+import './js/modal';
+import './js/location';
+import './js/swiper';
+
+// import './js/frenchise-popup';

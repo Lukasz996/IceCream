@@ -1,13 +1,13 @@
 .menu-toggle {
   position: absolute;
-//   bottom: 400px;
+  right: 20px;
+  top: 10px;
   left: 52px;
   min-height: 40px;
   min-width: 40px;
   display: flex;
   align-items: center;
-  justify-content: center;
-
+  justify-content: flex-end;
   margin: 0;
   padding: 0;
   color: $primary-accent-color;
@@ -16,13 +16,24 @@
   border: none;
   border-radius: 50%;
   outline: none;
-}
 
-@media (min-width: 1200px) {
-  .menu-toggle {
+  @media (min-width: 768px) {
+    justify-content: center;
+    z-index: 999;
+    top: 40px;
+    right: -265px;
+  }
+
+  @media (min-width: 1200px) {
     display: none;
   }
 }
+
+// @media (min-width: 1200px) {
+//   .menu-toggle {
+//     display: none;
+//   }
+// }
 
 // .menu-toggle:hover,
 // .menu-toggle:focus {
